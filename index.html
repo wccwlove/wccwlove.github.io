@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>王冲博客</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css1.css">
+</head>
+<body>
+<div class="box">
+<header>
+<a href="javascript:;">王 冲 博 客</a>
+<ul>
+	<li><a href="javascript:;">关于我</a></li>
+	<li><a href="javascript:;">前端了解</a></li>
+	<li><a href="javascript:;">我的经历</a></li>
+	<li><a href="javascript:;">我的作品</a></li>
+	<li><a href="javascript:;">我的邮箱</a></li>
+</ul>
+</header>
+<div class="content">
+<section class="gwidth">
+<div class="banner swiper-container" id="m_home_banner">
+	<ul class="swiper-wrapper">
+		<li class="swiper-slide">
+		<a href="#">
+			<img src="image/1.jpg" alt="">
+		</a>	
+		</li>
+		<li class="swiper-slide">
+		<a href="#">
+			<img src="image/2.jpg" alt="">
+		</a>	
+		</li>
+		<li class="swiper-slide">
+		<a href="#">
+			<img src="image/3.jpg" alt="">
+		</a>	
+		</li>
+	</ul>
+<div class="swiper-pagination banner-pagination"></div>
+</div>
+
+<div class="agileabout" id="agileabout">
+
+			<h2>关于我</h2>
+
+			<!-- <div class="agileabout-grids">
+				<div class="col-md-4 agileabout-grid agileabout-grid-1">
+					<h3>个人简介</h3>
+					<p>喜欢看书写东西，曾在学校校报中发表过文章，自学能力强，喜欢自己开发一些小程序，喜欢代码运行成功后的喜悦感。<br>
+					有良好的编程习惯，以及程序错误控制和解决能力，喜欢敲代码时的平静，成功后的欢快。
+					</p>
+				</div>
+				<div class="col-md-4 agileabout-grid agileabout-grid-2">
+					<div class="agileabout-grid-2-image">
+						<img src="images/about.png" alt="Opulent">
+					</div>
+				</div>
+				<div class="col-md-4 agileabout-grid agileabout-grid-3">
+					<h3>练习</h3>
+					<ul>
+						<li><div class="li1">生日</div><div class="li2">:</div><div class="li3">02/09/1996</div><div class="clearfix"></div></li>
+						<li><div class="li1">电话</div><div class="li2">:</div><div class="li3">15652800851</div><div class="clearfix"></div></li>
+						<li><div class="li1">Email</div><div class="li2">:</div><div class="li3"><a class="mail" href="mailto:mail@example.com">765483472@qq.com</a></div><div class="clearfix"></div></li>
+						<li><div class="li1">网站</div><div class="li2">:</div><div class="li3"><a href="#">www.cg-wang.top</a></div><div class="clearfix"></div></li>
+						<li><div class="li1">地址</div><div class="li2">:</div><div class="li3">北京市-大兴区-西红门</div><div class="clearfix"></div></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div> -->
+
+	</div>
+<div class="message">
+	<div class="left">
+		<img src="image/4.jpeg" alt="">
+         <p>喜欢看书写东西，曾在学校校报中发表过文章，自学能力强，喜欢自己开发一些小程序，喜欢代码运行成功后的喜悦感。<br>
+		有良好的编程习惯，以及程序错误控制和解决能力，喜欢敲代码时的平静，成功后的欢快。</p>
+	</div>
+	<div class="right">
+		<ul>
+			<li>
+			<div class="li1">生日</div>
+			<div class="li2">:</div>
+			<div class="li3">01/26/1999</div>
+			<div class="clearfix"></div>
+			</li>
+			<li>
+			<div class="li1">电话</div>
+			<div class="li2">:</div>
+			<div class="li3">18610863636</div>
+			<div class="clearfix"></div>
+			</li>
+			<li>
+			<div class="li1">Email</div><div class="li2">:</div>
+			<div class="li3">
+			<a class="mail" href="mailto:mail@example.com">1449300679@qq.com</a></div>
+			<div class="clearfix"></div>
+			</li>
+			<li>
+			<div class="li1">网站</div>
+			<div class="li2">:</div>
+			<div class="li3"><a href="#">www.wc-wang.top</a></div>
+			<div class="clearfix"></div>
+			</li>
+			<li>
+			<div class="li1">地址</div>
+			<div class="li2">:</div>
+			<div class="li3">北京市-大兴区</div><div class="clearfix"></div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+
+
+
+
+</section>	
+</div>
+<footer></footer>
+
+
+
+
+</div>
+<script src="js/1.js"></script>
+<script>
+// http://www.swiper.com.cn/网址
+	var banner=new Swiper('.banner',{
+		speed:1200,
+		autoplay:100,
+		autoplayDisableOnInteraction:false,
+		// autoplayDisableOnInteraction属性，属性为true。当设为false的时候，对swiper做点击，
+		// 触碰，拖动操作是会停止
+		// 自动轮播。并且重新启动一个autoplay
+		loop:true,
+		pagination:'.banner-pagination',
+		paginationClickable:true
+	})
+</script>
+</body>
+</html>

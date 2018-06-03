@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style:none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #ccc;
+}
+.box{
+	width: 100%;
+	height:auto;
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background-color:skyblue;
+	display: flex;
+	justify-content: space-between;
+}
+header >a{
+	display: flex;
+	width: 15%;
+	height: 100%;
+	margin-left: 5%;
+	font-size: 26px;
+	align-items: center;
+	justify-content: center;
+	font-style: oblique;
+	color: #fff;
+}
+header ul{
+	width: 50%;
+	height: 40px;
+	margin-top: 10px;
+	display: flex;
+	margin-right: 20px;
+
+}
+header ul li{
+	width: 20%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+header ul li a{
+	color:#fff;
+}
+.content{
+	width: 100%;
+	flex:1;
+	overflow-y: scroll;
+}
+section{
+	width: 70%;
+}
+.banner{
+	width: 100%;
+	height: 300px;
+}
+.banner img{
+	width: 100%;
+	height: 300px;
+}
+ 
+#agileabout{
+	height:80px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+
+}
+.message{
+	width: 100%;
+	height: 400px;
+	display: flex;
+}
+.left{
+	width: 40%;
+	height: 400px;
+	background-color: #fff;
+}
+
+.left img{
+	display: flex;
+	width: 80%;
+	height: 200px;
+	margin-left: 10%;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.left p{
+	width: 100%;
+	height: 100px;
+	padding: 0 5px;
+}
+
+
+.right{
+	width:60%;
+	height: 400px;
+	background-color: pink;
+}
+.right ul{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+
+}
+.right ul li{
+	width: 100%;
+	height: 20%;
+	display: flex;
+}
+
+
+
+
+
+
+
+.gwidth{
+	margin-left: 15%;
+}
